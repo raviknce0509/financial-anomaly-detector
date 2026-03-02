@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.DS_Store
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+models/*.pkl
+notebooks/.ipynb_checkpoints/
+financial-anomaly-detector/
