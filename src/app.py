@@ -7,9 +7,9 @@ import os
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from src.data import fetch_stock_data
-from src.features import engineer_features
-from src.detector import detect_anomalies, get_anomaly_summary
+from data import fetch_stock_data
+from features import engineer_features
+from detector import detect_anomalies, get_anomaly_summary
 
 # ── Page config ──────────────────────────────────────────────────
 st.set_page_config(
